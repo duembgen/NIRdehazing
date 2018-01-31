@@ -1,5 +1,4 @@
 from wls_filter import wls_filter
-from wavelet_filter import wavelet_filter
 import numpy as np
 
 
@@ -31,8 +30,7 @@ def multiresolution_analysis(image_orig, fil='wls', mode='haar', n=6, lambda_=0.
             base = wls_filter(image_orig, lambda_c)
             lambda_c = lambda_c * c
         elif fil == 'wavelet':
-            #level 0 is just black image
-            base = wavelet_filter(image_orig, mode=mode, level=k + 1)
+            raise NotImplementedError('Wavelet decomposition not implemented yet.')
         else:
             raise ValueError(
                 'The filter {} is not available. The available filters are wls and wavelet'.format(fil))

@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ## How to use
 
 The pipeline for dehazing using photorealistic fusion can be found in pipeline.ipynb. 
-Note that the script needs you to run run_wls.py beforehand, creating the multiresolution 
+Note that you need to run run_wls.py beforehand, creating the multiresolution 
 decomposition of the image. Since this is a costly operation, it has to be done only once per image,
 all detail and average images are stored for later use.  
 

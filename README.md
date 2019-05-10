@@ -7,7 +7,7 @@ Presented at Electornic Imaging Conference 2018, Burlingame CA, on Januar 31 201
 Authors:
 
 - Frederke Dümbgen
-- Majed El Helou
+- [Majed El Helou](https://majedelhelou.github.io/)
 - Natalija Gucevska
 - Sabine Süsstrunk
 

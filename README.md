@@ -1,8 +1,8 @@
 # NIRdehazing
 
-Code for paper "Near-Infrared Fusion for Photorealistic Image Dehazing".
+Code for the paper "[Near-Infrared Fusion for Photorealistic Image Dehazing](https://infoscience.epfl.ch/record/253201)".
 
-Presented at Electornic Imaging Conference 2018, Burlingame CA, on Januar 31 2018.
+Presented at the Electornic Imaging Conference 2018, Burlingame CA, on January 31 2018.
 
 Authors:
 

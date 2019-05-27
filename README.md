@@ -15,9 +15,9 @@ Last updated: 31.01.2018
 
 ## Requirements
 
-Requires installation of OpenCV 3+. Can recommend [this](https://milq.github.io/install-opencv-ubuntu-debian/) guide for installing OpenCV 3+ for python on Ubuntu. 
+Requires installation of OpenCV 3+. Can recommend [this](https://milq.github.io/install-opencv-ubuntu-debian/) guide for installing OpenCV 3+ for Python on Ubuntu. 
 
-Other libraries required (numpy, matplotlib) are listed in requirements.txt. Install by running:
+Other libraries required (NumPy, Matplotlib) are listed in requirements.txt. Install by running:
 ```
 pip install -r requirements.txt
 

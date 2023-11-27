@@ -18,7 +18,7 @@ def multiresolution_analysis(image_orig, fil='wls', mode='haar', n=6, lambda_=0.
     base_stack[n-1]: last level approximation image
     contrast_stack: contrast detailed decomposition of n levels
     """
-    image = image_orig.astype(np.float) / 255.0
+    image = image_orig.astype(float) / 255.0
     base_stack = [image]
     contrast_stack = []
 
